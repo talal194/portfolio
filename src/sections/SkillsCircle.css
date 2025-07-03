@@ -1,0 +1,90 @@
+/* .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .skill-container {
+    position: relative;
+    text-align: center;
+    width: 120px;
+    margin: 0 auto;
+  }
+  
+  .percentage-display {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.2rem;
+    font-weight: bold;
+    z-index: 2;
+    background: white;
+    padding: 2px 8px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .progress-circle {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .progress-circle-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #f0f0f0;
+  }
+  
+  .progress-circle-fill {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip-path: inset(0 50% 0 0);
+    transform-origin: center;
+    transition: transform 0.8s ease-out;
+  }
+  
+  .progress-circle-fill::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip-path: inset(0 0 0 50%);
+    background: inherit;
+    left: -50%;
+  }
+  
+  .skill-name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+    z-index: 2;
+  } */
+
+
+  .apexcharts-text {
+    & tspan {
+      font-family: inherit !important;
+    }
+  }
+  
+  .apexcharts-canvas {
+    margin: 0 auto;
+  }
+
+
+
+
+  

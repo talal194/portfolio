@@ -1,0 +1,111 @@
+:root{
+--primary:#138086;
+--sec:#000;
+--text:#6c6c6c;
+
+
+
+}
+
+
+.hero{
+    background-image: url('../img/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height:auto;
+    /* content: '';
+    position: absolute; */
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 4rem;
+    
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+.main_hero{
+
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 16rem;
+padding-top: 5rem;
+}
+
+
+.f:before {
+    opacity: .4;
+}
+
+.e:before {
+    background: #ffb400;
+opacity: .5;    
+    
+}
+
+.hero_btns{
+    display: flex;
+    gap:1rem;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+
+.main_hero h1,.main_hero span{
+font-size: 4rem;
+color:var(--primary);
+font-weight: 500;
+
+}
+
+.main_hero span{
+    color:var(--sec)
+}
+
+.main_hero h6{
+    font-size: 2.6rem;
+    color:var(--primary)
+}
+
+.main_hero p{
+    color: var(--text);
+    font-size: 1rem;
+
+}
+
+.btn{
+    padding: 10px 25px!important;
+}
+
+
+.btn1{
+    border: 1px solid var(--primary);
+    font-weight: 600;
+    color:var(--primary);
+    text-transform: uppercase;
+}
+
+.btn1:hover{
+    background-color: var(--primary);
+    color:#fff
+}
+
+
+.btn2{
+    background-color: var(--primary); 
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    
+}
+
+.btn2:hover{
+    border: 1px solid var(--primary);
+    color:var(--primary)
+}
+

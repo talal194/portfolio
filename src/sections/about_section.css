@@ -1,0 +1,31 @@
+
+.about_info h1{
+    font-size: 1.8rem;
+    color:var(--primary);
+}
+
+.about_info p{
+
+    color:var(--text);
+
+    font-size: 1rem;
+}
+
+.hr-lines {
+    position: relative;
+    max-width: 85px;
+    /* margin: 100px auto; */
+    text-align: center;
+    color:black
+}
+  
+  .hr-lines:before{
+    content:" ";
+    height: 2px;
+    width: 15px;
+    background: var(--primary);  
+     display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }

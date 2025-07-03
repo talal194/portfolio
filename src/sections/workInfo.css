@@ -1,0 +1,51 @@
+
+.work_info h1{
+    font-size: 1.8rem;
+    color:var(--primary);
+}
+
+.work_info p{
+
+    color:var(--text);
+    font-size: 1rem;
+    line-height: 30px;
+}
+
+.work_info .hr-lines {
+    position: relative;
+    max-width: 172px;
+    /* margin: 100px auto; */
+    text-align: center;
+    color:black;
+    font-weight:600;
+    font-size: 14px;
+}
+  
+  .work_info .hr-lines:before{
+    content:" ";
+    height: 2px;
+    width: 15px;
+    background: var(--primary);  
+     display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+
+
+  .work_info {
+    padding-left: 3rem;
+}
+
+
+.company_images {
+  display: flex;
+      flex-wrap: wrap;
+      /* justify-content: center; */
+      gap: 3rem;
+      align-items: baseline;
+}
+
+.c_images {
+  width: 80px;
+}

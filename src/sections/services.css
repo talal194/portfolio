@@ -1,0 +1,70 @@
+
+.services_info h1{
+    font-size: 1.8rem;
+    color:var(--primary);
+}
+
+.services_info p{
+
+    color:var(--text);
+
+    font-size: 1rem;
+}
+
+.services_info .hr-lines1 {
+    position: relative;
+    max-width:102px;
+    /* margin: 100px auto; */
+    text-align: center;
+    color:black
+}
+  
+.services_info .hr-lines1:before{
+    content:" ";
+    height: 2px;
+    width: 15px;
+    background: var(--primary);  
+     display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+
+
+
+
+  .card{
+    /* background-color: #e7f2f366;
+    border:1px solid #e7f2f366
+     */
+        background: #e7f2f366;
+        border-radius: 6px;
+        border: 1px solid rgba(161, 204, 207, .5);
+        transition: all .4s;
+        
+  }
+
+
+  .icon_service_div i {
+    display: inline-block;
+    background: var(--primary);
+    /* width: auto; */
+    padding: .2rem .5rem;
+    border-radius:3px;
+    color: #fff;
+   
+}
+
+#main_card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem 0;
+}
+
+.new_card_title{
+
+color:var(--primary);
+
+
+}
