@@ -1,7 +1,16 @@
 import "./hero.css";
 import img11 from '../img/talal2.png';
+import resume from "../assets/Talal__Ahmed.pdf";
+
 
 export default function Hero(){
+
+
+const MyButton= () => {
+
+    window.open(resume, "_blank"); 
+
+}
 
 return(
 <section className="hero">
@@ -12,11 +21,12 @@ return(
         
         {/* <h6>Welcome to ReactProx</h6> */}
         <h1 className="main_font"><span className="main_font">Hello, I'm </span> Talal Ahmed</h1>
-        <h6 className="main_font">A PASSIONATE FRONTEND DEVELOPER WITH 4+ YEARS OF EXPERIENCE  </h6>
-        <p>I specialize in building responsive, user-friendly, and visually appealing websites. </p>
+        <h6 className="main_font">FRONT-END DEVELOPER | BUILDING MODERN & SCALABLE WEB SOLUTIONS  </h6>
+        <p> I have 4+ years of experience creating responsive, user-friendly, and high-performing web applications.  
+Specialized in ReactJS, JavaScript, HTML/CSS, Bootstrap, and Tailwind. </p>
         {/* <p>test</p> */}
         <div className="hero_btns"> 
-        <button className="btn  btn1">Let’s turn your ideas into reality!</button>
+        <button className="btn  btn1" onClick={MyButton}>Let’s turn your ideas into reality!</button>
         {/* <button className="btn  btn2">Contact Us</button> */}
         
         </div>

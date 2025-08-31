@@ -23,7 +23,13 @@ export default function AboutSection() {
                 <div className="work_info">
                     <h6 className="hr-lines">Companies worked</h6>
                     <h1 className="main_font">companies I have work with</h1>
-                    <p>I’ve been working asweb developer for the past two years & have experience in multiple frameworks. I’m passionate about creating high quality products and beautiful user interfaces, giving my users the best experience they could possibly expect.</p>
+                    <p>
+                        Over the past Four years, I’ve been working as a Web Developer,
+                         gaining hands-on experience with multiple modern frameworks and technologies.
+                          I’m passionate about building high-quality, scalable, and user-friendly products with 
+                          a strong focus on clean design and seamless user experience.
+                         My goal is always to deliver solutions that not only meet requirements but also delight users.
+                    </p>
                     
                 </div>
 

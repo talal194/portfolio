@@ -7,6 +7,7 @@ let location = <i class="bi bi-geo-alt-fill"></i>;
 let linkedin = <i class="bi bi-linkedin"></i>;
 let facebook = <i class="bi bi-facebook"></i>;
 let twitter = <i class="bi bi-twitter"></i>;
+let github = <i class="bi bi-github"></i>;
 
 
 export default function Footer(){
@@ -18,8 +19,8 @@ return(<><section className="footer">
             <div className="col-lg-4">
                  <div className="info_footer">
                  <h5></h5>
-                     <p className='pt-2'>I've been working as web developer for the past two years,
-                         and have experience in multiple frameworks.</p>
+                     <p className='pt-2'> I am a passionate web developer specializing in React.js and modern web technologies.  
+    I enjoy building responsive and user-friendly applications.</p>
                  </div>
             </div>
             <div className="col-lg-4">
@@ -48,9 +49,9 @@ return(<><section className="footer">
             <div className="social_info">
                     <h5 className='main_font'>Social Links</h5>
                     <div className="social_links">
-                        <Link to="#"> {linkedin}</Link>
-                        <Link to="#">{twitter} </Link>
-                        <Link to="#">{facebook} </Link>
+                        <Link to="https://linkedin.com/in/talal367"> {linkedin}</Link>
+                        <Link to="https://github.com/talal194">{github} </Link>
+                        
                     </div>
                     
                 </div>

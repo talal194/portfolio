@@ -37,16 +37,16 @@ const CounterSection = () => {
       <div className="container">
         <div className="row">
           <div className="col-6 col-md-3">
-            <CounterItem value={4} label="YEARS OF EXPERIENCE"/>
+            <CounterItem value={4} label="Years of Professional Experience"/>
           </div>
           <div className="col-6 col-md-3">
-            <CounterItem value={150} label="PROJECTS COMPLETED" />
+            <CounterItem value={50} label="PROJECTS COMPLETED" />
           </div>
           <div className="col-6 col-md-3">
             <CounterItem value={75} label="SATISFIED CLIENTS " />
           </div>
           <div className="col-6 col-md-3">
-            <CounterItem value={22} label="TECHNOLOGIES MASTERED"/>
+            <CounterItem value={12} label="Modern Technologies Mastered"/>
           </div>
         </div>
       </div>

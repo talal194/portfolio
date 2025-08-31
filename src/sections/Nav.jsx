@@ -1,5 +1,5 @@
-import {Link} from 'react-router-dom';
-
+//import {Link} from 'react-router-dom';
+import {Link} from 'react-scroll';
 import './nav.css';
 
 
@@ -19,17 +19,17 @@ return(<section className="container">
             <Link className="nav-link active" aria-current="page" to="/">Home</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/about">About</Link>
+            <Link className="nav-link" to="about" smooth={true} duration={500}>About</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/services">Services</Link>
+            <Link className="nav-link" to="services" smooth={true} duration={500}>Services</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/project">Project</Link>
+            <Link className="nav-link" to="projects" smooth={true} duration={500}>Projects</Link>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link className="nav-link" to="/blog" >Blog</Link>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>

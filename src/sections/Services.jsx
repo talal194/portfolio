@@ -1,16 +1,21 @@
 import './services.css';
 import Card from './Card';
+import resume from "../assets/Talal__Ahmed.pdf";
 
 export default function Services(){
 
 //let img = <i className='bi bi-laptop'></i>;
 
+const MyButton = ()=>{
+    window.open(resume, "_blank"); 
+}
+
 let service_info = [
 
-{title:'Web Application',img:<i className='bi bi-laptop'></i>},
-{title:'UI Design and Optimization',img:<i class="bi bi-wrench-adjustable"></i>},
-{title:'CMS development',img:<i class="bi bi-wordpress"></i>},
-{title:'Single Page Applications',img:<i class="bi bi-file-text-fill"></i>},
+{title:'Web Development',img:<i className='bi bi-laptop'></i>},
+{title:'UI/UX Design Implementation',img:<i class="bi bi-wrench-adjustable"></i>},
+{title:'API Integration',img:<i class="bi bi-wordpress"></i>},
+{title:'Single Page Applications (SPA)',img:<i class="bi bi-file-text-fill"></i>},
 
 
 ]
@@ -23,10 +28,15 @@ let service_info = [
 
                 <div className="services_info">
                     <h6 className="hr-lines1">Services</h6>
-                    <h1 className="main_font">What I Porvide</h1>
-                    <p>I've created and updated websites for many different clients. I worked with multiple CMS including WordPress, Joomla, and Drupal, as well as created my own custom website management system in Node.js.</p>
-                    <p>A part of the team that has built the front-end for an enterprise-level web application in AngularJS. I've been a part of a team that has built.</p>
-                    <button className="btn  btn2">Download CV</button>
+                    <h1 className="main_font pt-3">Web Development</h1>
+                    <p>Custom websites & dashboards using ReactJS, PHP, MySQL.</p>
+                    <h1 className="main_font">UI/UX Design Implementation</h1>
+                    <p>Transforming Figma/Adobe XD into pixel-perfect responsive layouts.</p>
+                    <h1 className="main_font">API Integration</h1>
+                    <p>Seamless REST API integration for data-driven applications.</p>
+                    <h1 className="main_font">Single Page Applications (SPA)</h1>
+                    <p>Modern, fast, and scalable front-end applications.</p>
+                    <button className="btn  btn2" onClick={MyButton}>Download CV</button>
                 </div>
 
             </div>
