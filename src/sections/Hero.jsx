@@ -13,7 +13,7 @@ return(
         {/* <h6>Welcome to ReactProx</h6> */}
         <h1 className="main_font"><span className="main_font">Hello, I'm </span> Talal Ahmed</h1>
         <h6 className="main_font">A PASSIONATE FRONTEND DEVELOPER WITH 4+ YEARS OF EXPERIENCE  </h6>
-        <p>I specialize in building responsive, user-friendly, and visually appealing websites. </p>
+        <p>I craft modern, responsive, and high-performance web interfaces that blend clean design with smooth user experiences. With a strong focus on React.js, Next.js, Tailwind CSS, and UI component libraries, I build fast, scalable, and visually engaging digital products. </p>
         {/* <p>test</p> */}
         <div className="hero_btns"> 
         <button className="btn  btn1">Let’s turn your ideas into reality!</button>

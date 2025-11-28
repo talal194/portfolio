@@ -15,11 +15,12 @@
                     <div className="about_info">
                         <h6 className="hr-lines">About</h6>
                         <h1 className="main_font">Who am i</h1>
-                        <p>I've created and updated websites for many different clients. I worked with multiple CMS including WordPress, Joomla, and Drupal, as well as created my own custom website management system in Node.js.</p>
-                        <h1 className="main_font">I Can Develop Anything You Want</h1>
-                        <p>A part of the team that has built the front-end for an enterprise-level web application in AngularJS. I've been a part of a team that has built.</p>
-                        <h1 className="main_font">I can follow digital Trends</h1>
-                        <p>I am a quick learner and always eager to learn new technologies. I am a team player and can work in a fast-paced environment.</p>
+                        <p>I am a front-end developer with 4 years of professional experience, specializing in building modern, responsive, and high-performance web applications. I’ve created and updated websites for various clients using WordPress and have built multiple custom front-end solutions from scratch.</p>
+                        <h1 className="main_font">What I Can Do</h1>
+                        <p>I develop powerful and scalable web solutions using React.js, Next.js, React-Bootstrap, and Tailwind CSS. I have extensive experience working on CRM systems, HRM dashboards, admin panels, and data visualization interfaces with advanced graph and chart integrations.
+I’ve also contributed to enterprise-level front-end development teams, delivering clean, fast, and user-friendly interfaces.</p>
+                        <h1 className="main_font">Always Evolving</h1>
+                        <p>I follow modern digital trends and continuously upgrade my skills. I’m a fast learner, a team player, and comfortable working in fast-paced environments. My focus is on writing clean, efficient code and delivering visually appealing, high-quality designs.</p>
                         
                     </div>
 

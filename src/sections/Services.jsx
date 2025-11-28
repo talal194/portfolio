@@ -24,8 +24,14 @@ let service_info = [
                 <div className="services_info">
                     <h6 className="hr-lines1">Services</h6>
                     <h1 className="main_font">What I Porvide</h1>
-                    <p>I've created and updated websites for many different clients. I worked with multiple CMS including WordPress, Joomla, and Drupal, as well as created my own custom website management system in Node.js.</p>
-                    <p>A part of the team that has built the front-end for an enterprise-level web application in AngularJS. I've been a part of a team that has built.</p>
+                    <p>I build fast, dynamic, and scalable web interfaces using React.js, Next.js, Tailwind CSS, Bootstrap, and modern JavaScript. My focus is on clean architecture, reusable components, and pixel-perfect UI.</p>
+                    <p>With real experience building CRM and HRM dashboards, I create intuitive admin panels with:
+                        Real-time data visualization,
+                        Custom forms & workflows,
+                        Role-based access,
+                        API-integrated modules,
+                        Responsive layouts</p>
+                    
                     <button className="btn  btn2">Download CV</button>
                 </div>
 

@@ -14,7 +14,7 @@ return( <section className='container pt-5'>
             <div className="services_info">
                 <h6 className="hr-lines1">My Skill</h6>
                 <h1 className="main_font">Develop Skills</h1>
-                <p>I've created and updated websites for many different clients. I worked with multiple CMS including WordPress, Joomla, and Drupal, as well as created my own custom website management system in Node.js.</p>
+                <p>I have extensive experience in building and maintaining websites for various clients. I specialize in front-end development using modern technologies and frameworks. I am skilled at creating responsive, user-friendly, and visually appealing websites, with a strong focus on delivering seamless user experiences and custom front-end solutions when needed.</p>
                
             </div>
         <SkillsCircle/>
