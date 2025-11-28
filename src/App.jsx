@@ -18,10 +18,11 @@ return(
      </header>
      
         <main>
-            <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About/>} />
-            </Routes>            
+            <Home />
+            {/* <Routes>
+            <Route path="/" element={<Home />} /> 
+             <Route path="/about" element={<About/>} /> 
+            </Routes>             */}
         </main>
         </Router>
     </>

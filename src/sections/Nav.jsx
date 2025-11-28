@@ -1,4 +1,4 @@
-import {Link} from 'react-router-dom';
+
 
 import './nav.css';
 
@@ -9,26 +9,26 @@ export default function Nav(){
 return(<section className="container">
     <nav className="navbar navbar-expand-lg">
     <div className="container-fluid">
-      <Link className="navbar-brand" to="/">Navbar</Link>
-      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="/navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span className="navbar-toggler-icon"></span>
-      </button>
+      <a className="navbar-brand" href="/">Navbar</a>
+      <buthrefn className="navbar-hrefggler" type="buthrefn" data-bs-hrefggle="collapse" data-bs-target="/navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="hrefggle navigation">
+        <span className="navbar-hrefggler-icon"></span>
+      </buthrefn>
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ms-auto">
           <li className="nav-item">
-            <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+            <a className="nav-a active" aria-current="page" href="#">Home</a>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/about">About</Link>
+            <a className="nav-a" href="#about">About</a>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/services">Services</Link>
+            <a className="nav-a" href="#services">Services</a>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/project">Project</Link>
+            <a className="nav-a" href="#project">Project</a>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/blog" >Blog</Link>
+            <a className="nav-a" href="#contact" >Contact</a>
           </li>
         </ul>
       </div>

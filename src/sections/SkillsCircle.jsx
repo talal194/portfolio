@@ -57,7 +57,7 @@ const SkillsCircle = () => {
     { skill: 'Reactjs', percentage: 80, color: '#138086' },
     { skill: 'JS', percentage: 88, color: '#138086' },
     { skill: 'Bootsrtap', percentage: 90, color: '#138086' },
-    { skill: 'PHP', percentage: 90, color: '#138086' },
+    { skill: 'Nextjs', percentage: 90, color: '#138086' },
     { skill: 'HTML/CSS', percentage: 95, color: '#138086' },
     { skill: 'Wordpress', percentage: 85, color: '#138086' },
     { skill: 'Jquery', percentage: 90, color: '#138086' },

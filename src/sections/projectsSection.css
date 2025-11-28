@@ -153,3 +153,10 @@
 .main_font{
     color:var(--primary);
 }
+
+
+
+.projects-section{
+  white-space: pre-line;
+
+}

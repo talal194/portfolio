@@ -40,3 +40,8 @@
     height: auto!important;
   }
 }
+
+
+html {
+  scroll-behavior: smooth;
+}

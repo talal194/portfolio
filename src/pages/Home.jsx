@@ -17,14 +17,25 @@
     return(<>
         
     <Hero/>
-    <AboutSec/>
-    <Services/>
-    <CounterSection/>
-    <Skills/>
-    <ProjectsSection/>
-    <WorkedInfo/>
+    <div id='about'>
+        <AboutSec/>
+    </div>
+    <div id='services'>
+        <Services/>
+    </div>
+    <div id='counter'>
+        <CounterSection />
+    </div>
+    <Skills  id="skills" />
+    <div id='project'>
+        <ProjectsSection />
+    </div>
+    <WorkedInfo />
     <TestimonialCarousel/>
-    <Contact/>
+    <div id="contact">
+        <Contact id="contact"/>
+    </div>
+    
     <Footer/>
     </>)
 
