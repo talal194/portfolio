@@ -1,4 +1,3 @@
-
 :root{
     --primary:#138086;
     --sec:#000;
@@ -159,4 +158,29 @@
 .projects-section{
   white-space: pre-line;
 
+}
+
+/* project item enter/exit */
+.proj-enter {
+  opacity: 0;
+  transform: translateY(12px) scale(.98);
+}
+.proj-enter-active {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  transition: opacity 300ms ease, transform 300ms ease;
+}
+.proj-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+.proj-exit-active {
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 300ms ease, transform 300ms ease;
+}
+
+/* optional: ensure grid container doesn't reflow too abruptly */
+.project-item { 
+  transition: transform 300ms ease, opacity 300ms ease;
 }

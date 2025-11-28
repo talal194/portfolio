@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
-import {Link} from 'react-router-dom';
-import './projectsSection.css'; // Create this CSS file
+import React, { useState, useRef } from 'react';
+import { Link } from 'react-router-dom';
+import { TransitionGroup, CSSTransition } from 'react-transition-group';
+import './projectsSection.css'; // Create / update this CSS file
 
 import p1 from '../img/d1.png';
 import p2 from '../img/d2.png';
@@ -11,24 +12,31 @@ import p6 from '../img/d6.png';
 import p7 from '../img/d7.png';
 import p8 from '../img/d8.png';
 
-const ProjectCard = ({ title, description, imageUrl,Url }) => {
+const ProjectCard = ({ title, description, imageUrl, Url }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <div 
+    <div
       className="project-card"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <img 
-        src={imageUrl} 
-        alt={title} 
-        className={`project-image ${isHovered ? 'fade-out' : ''}`} 
+      <img
+        src={imageUrl}
+        alt={title}
+        className={`project-image ${isHovered ? 'fade-out' : ''}`}
       />
       <div className={`project-content ${isHovered ? 'fade-up' : ''}`}>
         <h3 className="project-title">{title}</h3>
         <p className="project-description">{description}</p>
-        <Link to={Url}  target="_blank" className="project-button">View Project</Link>
+        <a
+          href={Url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="project-button"
+        >
+          View Project
+        </a>
       </div>
     </div>
   );
@@ -36,6 +44,7 @@ const ProjectCard = ({ title, description, imageUrl,Url }) => {
 
 const ProjectsSection = () => {
   const [showAll, setShowAll] = useState(false);
+  const sectionRef = useRef(null);
 
   const projects = [
     {
@@ -103,24 +112,43 @@ const ProjectsSection = () => {
 
   const visibleProjects = showAll ? projects : projects.slice(0, 4);
 
+  const handleToggle = () => {
+    setShowAll(prev => {
+      const next = !prev;
+      // wait for DOM update & transition then smooth-scroll to section top
+      setTimeout(() => {
+        if (sectionRef.current) {
+          sectionRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }, 320); // match CSS transition-duration (slightly larger)
+      return next;
+    });
+  };
+
   return (
-    <section className="projects-section">
+    <section className="projects-section" ref={sectionRef}>
       <div className="container">
         <div className="row">
           <div className='text-center pb-5'>
             <div className="section_center"><h6 className="hr-lines1">Portfolio</h6></div>
             <h1 className="main_font">Recent Projects</h1>
           </div>
-          {visibleProjects.map((project) => (
-            <div key={project.id} className='col-lg-6 mb-5'>
-              <ProjectCard {...project} />
-            </div>
-          ))}
+
+          <TransitionGroup component={null}>
+            {visibleProjects.map((project) => (
+              <CSSTransition key={project.id} timeout={300} classNames="proj">
+                <div className='col-lg-6 mb-5 project-item'>
+                  <ProjectCard {...project} />
+                </div>
+              </CSSTransition>
+            ))}
+          </TransitionGroup>
+
           {projects.length > 4 && (
             <div className="col-lg-12 text-center">
               <button
                 className="btn btn2"
-                onClick={() => setShowAll(prev => !prev)}
+                onClick={handleToggle}
               >
                 {showAll ? 'Show Less' : 'Show More'}
               </button>
