@@ -42,6 +42,48 @@
 }
 
 
+
+
+@media(max-width:400px) {
+  .text-uppercase {
+    font-size: .7rem !important;
+}
+
+
+.project-description{
+  font-size: 0 !important;
+}
+
+.project-title{
+  font-size: 1rem !important;
+}
+
+.project-button{
+  padding: 0.4rem 2rem;
+}
+
+
+
+    .skills_sec {
+    display: flex;
+    width: 100px;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    
+}
+
+text.apexcharts-text.apexcharts-datalabel-label {
+    font-size: 12px;
+}
+   
+text.apexcharts-text.apexcharts-datalabel-value {
+    font-size: 18px;
+}
+
+}   
+
+
 html {
   scroll-behavior: smooth;
 }

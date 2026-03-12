@@ -16,7 +16,7 @@ let service_info = [
 ]
 
 
-    return(<section className="container pt-5 pb-5">
+    return(<section className="container pb-5 services_section">
 
         <div className="row">
             <div className="col-md-6">
@@ -32,7 +32,7 @@ let service_info = [
                         API-integrated modules,
                         Responsive layouts</p>
                     
-                    <button className="btn  btn2">Download CV</button>
+                   <div><button className="btn  btn2">Download CV</button></div>
                 </div>
 
             </div>

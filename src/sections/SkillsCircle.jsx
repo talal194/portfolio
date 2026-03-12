@@ -70,8 +70,8 @@ const SkillsCircle = () => {
     <div>
       <div className="row">
         {skills.map((item, index) => (
-          <div key={index} className="col-lg-4 col-md-3 col-sm-4 col-xs-6">
-            <SkillChart 
+          <div key={index} className="col-lg-4 col-md-3 col-sm-2 col-xs-6 skills_sec">
+            <SkillChart className='skill_chart'
               skill={item.skill} 
               percentage={item.percentage} 
               color={item.color} 

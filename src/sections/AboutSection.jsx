@@ -4,7 +4,7 @@
     
     export default function AboutSection() {
 
-     return(<section className="container pt-5 pb-5">
+     return(<section className="container  about_section">
 
             <div className="row">
                 <div className="col-md-5">

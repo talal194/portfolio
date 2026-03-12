@@ -18,7 +18,7 @@ return(<><section className="footer">
             <div className="col-lg-4">
                  <div className="info_footer">
                  <h5></h5>
-                     <p className='pt-2'>I've been working as web developer for the past two years,
+                     <p className='pt-2'>I've been working as web developer for the past 4 years,
                          and have experience in multiple frameworks.</p>
                  </div>
             </div>
@@ -28,7 +28,7 @@ return(<><section className="footer">
                     <ul>
                         <li><Link to="tel:+92 3111083050"> {phone} +92 3111083050</Link></li>
                         <li><Link to="mailto:talalahmed367@gmail.com">{email} talalahmed367@gmail.com</Link></li>
-                        <li><Link to="#">{location} abc street</Link></li>
+                        {/* <li><Link to="#">{location} abc street</Link></li> */}
                     </ul>
                 </div>
             </div>
@@ -48,9 +48,9 @@ return(<><section className="footer">
             <div className="social_info">
                     <h5 className='main_font'>Social Links</h5>
                     <div className="social_links">
-                        <Link to="#"> {linkedin}</Link>
-                        <Link to="#">{twitter} </Link>
-                        <Link to="#">{facebook} </Link>
+                        <Link to="https://www.linkedin.com/in/talal367/"> {linkedin}</Link>
+                        {/* <Link to="#">{twitter} </Link>
+                        <Link to="#">{facebook} </Link> */}
                     </div>
                     
                 </div>

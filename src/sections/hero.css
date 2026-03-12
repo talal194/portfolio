@@ -33,8 +33,9 @@
 display: flex;
 flex-direction: column;
 justify-content: space-between;
-height: 16rem;
+/* height: 16rem; */
 padding-top: 5rem;
+padding-bottom:1rem;
 }
 
 
@@ -109,3 +110,55 @@ font-weight: 500;
     color:var(--primary)
 }
 
+
+@media (max-width: 768px) {
+ 
+.hero_img{
+    display: none;
+}
+
+
+
+.main_hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    padding-top: 0;
+}
+
+
+
+}
+
+
+@media (max-width: 576px) {
+    .main_hero h1,.main_hero span{
+        font-size: 2.5rem;
+    }
+
+    .main_hero h6{
+        font-size: 1.5rem;
+    }
+
+.btn1{
+    font-size: .8rem;
+
+}
+
+
+section.hero {
+    padding: 4rem 1rem 0 1rem;
+}
+
+}   
+
+
+
+@media(max-width: 400px) {
+    
+    .main_hero h1,.main_hero span{
+        font-size: 1.8rem;
+    }
+
+}

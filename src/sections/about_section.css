@@ -1,4 +1,10 @@
 
+
+.about_section{
+      padding: 3rem 0;
+    }
+
+
 .about_info h1{
     font-size: 1.8rem;
     color:var(--primary);
@@ -28,4 +34,14 @@
     position: absolute;
     top: 50%;
     left: 0;
+  }
+
+  @media(max-width:576px){
+
+    .about_section{
+      padding: 0 1rem 0 1rem;
+    }
+
+
+
   }

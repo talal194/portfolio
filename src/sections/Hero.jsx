@@ -25,7 +25,7 @@ return(
         </div>
         <div className="col-md-6">
 
-                <div><img src={img11} className="img-fluid" /></div>
+                <div className="hero_img"><img src={img11} className="img-fluid" /></div>
         </div>
     </div>
     </div>

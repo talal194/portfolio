@@ -68,3 +68,28 @@ color:var(--primary);
 
 
 }
+
+
+.services_section{
+padding-top: 3rem;
+}
+
+
+
+@media (max-width: 400px) {
+
+    .services_section{
+padding: .6rem 1rem 0 1rem;
+}
+
+
+.services_info{
+    padding-bottom:1rem;
+}
+
+.services_info div{
+    display: flex;
+    justify-content: center;    
+}
+    
+}   
