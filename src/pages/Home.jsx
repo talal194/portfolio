@@ -26,7 +26,9 @@
     <div id='counter'>
         <CounterSection />
     </div>
+    
     <Skills  id="skills" />
+
     <div id='project'>
         <ProjectsSection />
     </div>

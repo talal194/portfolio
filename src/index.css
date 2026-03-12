@@ -24,7 +24,9 @@
   font-variation-settings:"wdth" 100;
 }
 
-
+.skills_sec {
+    width: 13vw;
+}
 
 @media (max-width: 1600px) {
   .services_img img {
@@ -39,12 +41,17 @@
     width: 100%;
     height: auto!important;
   }
+
+.skills_sec {
+    width: 16vw;
+}
+
 }
 
 
 
 
-@media(max-width:400px) {
+@media(max-width:480px) {
   .text-uppercase {
     font-size: .7rem !important;
 }
@@ -66,7 +73,7 @@
 
     .skills_sec {
     display: flex;
-    width: 100px;
+    width: 126px;
     flex-direction: column;
     margin: 0;
     padding: 0;

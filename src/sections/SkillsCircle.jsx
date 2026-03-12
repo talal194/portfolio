@@ -67,7 +67,7 @@ const SkillsCircle = () => {
   ];
 
   return (
-    <div>
+    
       <div className="row">
         {skills.map((item, index) => (
           <div key={index} className="col-lg-4 col-md-3 col-sm-2 col-xs-6 skills_sec">
@@ -78,7 +78,7 @@ const SkillsCircle = () => {
             />
           </div>
         ))}
-      </div>
+      
     </div>
   );
 };
